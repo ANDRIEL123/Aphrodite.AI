@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.API", "Aphrodite.API\Aphrodite.AI.API.csproj", "{C7D98B5F-1C47-4FEA-A6F8-9FEABE730DCE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.MediaEngine", "Aphrodite.AI.MediaEngine\Aphrodite.AI.MediaEngine.csproj", "{C5855323-BE02-4ED8-ACCC-B2377203DA97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.Application", "Aphrodite.AI.Application\Aphrodite.AI.Application.csproj", "{F4352670-CAB8-4F15-A9DE-6F6E37E6ED83}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.Domain", "Aphr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.Infrastructure", "Aphrodite.AI.Infrastructure\Aphrodite.AI.Infrastructure.csproj", "{FF2D382C-D480-4DC8-BC4F-1734E3148715}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aphrodite.AI.API", "Aphrodite.AI.API\Aphrodite.AI.API.csproj", "{9800C129-B523-6AC3-B178-741804592165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C7D98B5F-1C47-4FEA-A6F8-9FEABE730DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7D98B5F-1C47-4FEA-A6F8-9FEABE730DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7D98B5F-1C47-4FEA-A6F8-9FEABE730DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7D98B5F-1C47-4FEA-A6F8-9FEABE730DCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5855323-BE02-4ED8-ACCC-B2377203DA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5855323-BE02-4ED8-ACCC-B2377203DA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5855323-BE02-4ED8-ACCC-B2377203DA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{FF2D382C-D480-4DC8-BC4F-1734E3148715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2D382C-D480-4DC8-BC4F-1734E3148715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2D382C-D480-4DC8-BC4F-1734E3148715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9800C129-B523-6AC3-B178-741804592165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9800C129-B523-6AC3-B178-741804592165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9800C129-B523-6AC3-B178-741804592165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9800C129-B523-6AC3-B178-741804592165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
