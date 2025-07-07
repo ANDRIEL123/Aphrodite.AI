@@ -7,6 +7,6 @@
         /// </summary>
         /// <param name="prompt"></param>
         /// <returns></returns>
-        Task<string> ExecuteAsync(string prompt);
+        Task<dynamic> ExecuteAsync(string prompt);
     }
 }

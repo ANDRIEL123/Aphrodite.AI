@@ -9,6 +9,7 @@ namespace Aphrodite.AI.Application
         public static void AddApplication(this IServiceCollection services)
         {
             services.AddScoped<ICreatePostUseCase, CreatePostUseCase>();
+            services.AddScoped<ICreateAccountUseCase, CreateAccountUseCase>();
         }
     }
 }

@@ -5,13 +5,13 @@ namespace Aphrodite.AI.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class TextController : ControllerBase
+    public class PostsController : ControllerBase
     {
-        private readonly ILogger<TextController> _logger;
+        private readonly ILogger<PostsController> _logger;
         private readonly ICreatePostUseCase _createPostUseCase;
 
-        public TextController(
-            ILogger<TextController> logger,
+        public PostsController(
+            ILogger<PostsController> logger,
             ICreatePostUseCase createPostUseCase
         )
         {
@@ -19,8 +19,8 @@ namespace Aphrodite.AI.API.Controllers
             _createPostUseCase = createPostUseCase;
         }
 
-        [HttpGet("completions")]
-        public async Task<IActionResult> Get()
+        [HttpPost]
+        public async Task<IActionResult> CreatePost()
         {
             var result = await _createPostUseCase.ExecuteAsync("Gera uma descrição de post para instagram sobre estar na praia");
             return Ok(result);
